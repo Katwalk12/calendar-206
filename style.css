@@ -93,3 +93,27 @@ td a:hover {
   cursor: pointer;
   box-shadow: 20px 20px 50px rgba(243, 240, 240, 0.886);
 }
+@media screen and (max-width: 320px) {
+  body {
+    background-image: url('images/sponge.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: block;
+  }
+  .header h1 {
+    font-size: 16px;
+    margin: 3px;
+  }
+  table {
+    width: 100%;
+    font-size: 12px;
+  }
+  th {
+    font-size: 14px;
+    padding: 6px;
+  }
+  .footer {
+    font-size: 10px;
+    padding: 10px;
+  }
+}
