@@ -93,7 +93,7 @@ td a:hover {
   cursor: pointer;
   box-shadow: 20px 20px 50px rgba(243, 240, 240, 0.886);
 }
-@media screen and (max-width: 425px) {
+@media screen and (min-width: 425px) {
   body {
     background: none;
     max-width: 100%;
@@ -140,5 +140,6 @@ td a:hover {
   }
   
 }
+
 
 
